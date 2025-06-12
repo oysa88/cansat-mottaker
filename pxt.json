@@ -1,0 +1,32 @@
+{
+    "name": "CanSat mottaker",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-lora": "github:SCjoh/pxt-lora#d84ad6d37fcb0cf4acb2d15b91620455496ff4a2",
+        "pxt-kitronik-128x64display": "github:kitronikltd/pxt-kitronik-128x64display#v0.4.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.25",
+        "tag": "v6.0.25",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/f72136f1d01face3fc76caffa5343af1db369a37",
+        "target": "7.0.61",
+        "pxt": "9.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
